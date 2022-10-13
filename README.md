@@ -12,8 +12,9 @@ The purpose of this analysis is to predict credit risk by using the credit card 
 
 ° The naive accuracy score is 0.6447 meaning that this model accurately predicts credit risk 64.47% of the time
 
-° The precision of the high risk apllicants is 0.01 and 1.00 for low risk applicants meaning that 100% of the predicted low risk applicants are actually low risk, but only 1% of the predicted high risk applicants are actually high risk.
-Recall: The recall of this model is 0.59 for high risk, and 0.67 for low risk applicants. This means that 59% of high risk applicants are classified as high risk and 67% of low risk applicants are classified as low risk.
+° The precision of the high risk apllicants is 0.01 and 1.00 for low risk applicants.  meaning that 100% of the predicted low risk applicants are actually low risk, but only 1% of the predicted high risk applicants are actually high risk.
+
+° According to recall 70% of high risk applicants are classified as high risk and 59% of low risk applicants are classified as low risk.
 
 ## Summary:
 There is a summary of the results (2 pt)
