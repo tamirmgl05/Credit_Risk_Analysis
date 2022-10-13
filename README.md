@@ -26,6 +26,17 @@ The purpose of this analysis is to predict credit risk by using the credit card 
 
 ° The recall is 0.63 for high risk applicants and 0.69 for low risk applicants. Thus, 63% of high risk applicants are classified as high risk and 69% of low risk applicants are classified as low risk.
 
+### Cluster Centroids Undersampling
+
+<img width="796" alt="Screen Shot 2022-10-12 at 9 10 20 PM" src="https://user-images.githubusercontent.com/107653012/195475968-4b16a552-2ffd-4762-b500-8742cb456fc1.png">
+
+° The accuracy score is 0.6531 meaning that this model accurately predicts credit risk 65.31% of the time.
+
+° The precision is exact the same as both models above.
+
+° The recall is 0.73 for high risk applicants and 0.57 for low risk applicants. Thus, 73% of high risk applicants are classified as high risk and 57% of low risk applicants are classified as low risk.
+
+
 ## Summary:
 There is a summary of the results (2 pt)
 There is a recommendation on which model to use, or there is no recommendation with a justification (3 pt)
