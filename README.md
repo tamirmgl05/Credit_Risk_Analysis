@@ -47,6 +47,25 @@ The purpose of this analysis is to predict credit risk by using the credit card 
 
 ° The recall is 0.74 for high risk applicants and 0.56 for low risk applicants. Thus, 74% of high risk applicants are classified as high risk and 56% of low risk applicants are classified as low risk.
 
+### Balanced Random Forest Classifier
+
+<img width="774" alt="Screen Shot 2022-10-12 at 9 43 54 PM" src="https://user-images.githubusercontent.com/107653012/195479505-2ea6d72b-e449-4a17-8de8-d75bef33dc1f.png">
+
+The accuracy score is 0.7620 meaning that this model accurately predicts credit risk 76.2% of the time. It is pretty high compared to the other models. 
+
+° The precision of the high risk apllicants is 0.03 and 1.00 for low risk applicants. Thus, only 3% of the predicted high risk applicants are actually high risk.
+
+° The recall is 0.63 for high risk applicants and 0.89 for low risk applicants. The highest recall for the low risk applicants compared to the previous models. 
+
+### Easy Ensemble AdaBoost Classifier
+
+<img width="777" alt="Screen Shot 2022-10-12 at 9 44 08 PM" src="https://user-images.githubusercontent.com/107653012/195479961-db37eb29-2b44-4511-92ed-39ef63d3be73.png">
+
+° This model actually predicts the credit risk 91.78% of the time. 
+
+° The precision for high_risk applicants is 0.09 meaning that this model identifies high risk applicants 9% of the time. 
+
+° The recall shows that 89% of the high risk and 94% of the low risk applicants are correctly classified. 
 
 ## Summary:
 There is a summary of the results (2 pt)
