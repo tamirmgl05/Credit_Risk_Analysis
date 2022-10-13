@@ -10,11 +10,21 @@ The purpose of this analysis is to predict credit risk by using the credit card 
 
 <img width="797" alt="Naive Random Oversampling" src="https://user-images.githubusercontent.com/107653012/195470273-8cb6068d-d551-4708-ba02-a4bb376989da.png">
 
-° The naive accuracy score is 0.6447 meaning that this model accurately predicts credit risk 64.47% of the time
+° The naive accuracy score is 0.6447 meaning that this model accurately predicts credit risk 64.47% of the time.
 
 ° The precision of the high risk apllicants is 0.01 and 1.00 for low risk applicants.  meaning that 100% of the predicted low risk applicants are actually low risk, but only 1% of the predicted high risk applicants are actually high risk.
 
 ° According to recall 70% of high risk applicants are classified as high risk and 59% of low risk applicants are classified as low risk.
+
+### SMOTE Oversampling
+
+<img width="803" alt="SMOTE Oversampling" src="https://user-images.githubusercontent.com/107653012/195471889-dad6a100-ba5f-4dc1-a036-8421f9c7a827.png">
+
+° The SMOTE accuracy score is 0.6623 meaning that this model accurately predicts credit risk 66.23% of the time.
+
+° The precision is exact the same as naive.
+
+° The recall is 0.63 for high risk applicants and 0.69 for low risk applicants. Thus, 63% of high risk applicants are classified as high risk and 69% of low risk applicants are classified as low risk.
 
 ## Summary:
 There is a summary of the results (2 pt)
