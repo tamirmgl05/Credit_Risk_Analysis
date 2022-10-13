@@ -68,5 +68,5 @@ The accuracy score is 0.7620 meaning that this model accurately predicts credit 
 ° The recall shows that 89% of the high risk and 94% of the low risk applicants are correctly classified. 
 
 ## Summary:
-There is a summary of the results (2 pt)
-There is a recommendation on which model to use, or there is no recommendation with a justification (3 pt)
+
+In conclusion, the Easy Ensemble AdaBoost Classifier model is the best model to use for predicting credit risk since not only the accuracy score was the highest but also it can better identify high risk applicants. 
