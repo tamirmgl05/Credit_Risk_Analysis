@@ -36,6 +36,17 @@ The purpose of this analysis is to predict credit risk by using the credit card 
 
 ° The recall is 0.73 for high risk applicants and 0.57 for low risk applicants. Thus, 73% of high risk applicants are classified as high risk and 57% of low risk applicants are classified as low risk.
 
+### SMOTEENN (Combination Sampling)
+
+<img width="781" alt="Screen Shot 2022-10-12 at 9 33 51 PM" src="https://user-images.githubusercontent.com/107653012/195478480-71b59c92-a309-492b-b6d2-2f2eca71104e.png">
+
+
+° The accuracy score is 0.6511 meaning that this model accurately predicts credit risk 65.11% of the time.
+
+° The precision is still the same.
+
+° The recall is 0.74 for high risk applicants and 0.56 for low risk applicants. Thus, 74% of high risk applicants are classified as high risk and 56% of low risk applicants are classified as low risk.
+
 
 ## Summary:
 There is a summary of the results (2 pt)
